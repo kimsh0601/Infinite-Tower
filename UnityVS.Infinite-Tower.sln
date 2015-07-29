@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Infinite-Tower.CSharp.Plugins", "UnityVS.Infinite-Tower.CSharp.Plugins.csproj", "{9705516D-44BA-7121-7FD8-E2F7B0ECDF81}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Infinite-Tower.CSharp", "UnityVS.Infinite-Tower.CSharp.csproj", "{7532B980-47D5-0DA7-AD5E-C39F4E4884FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Infinite-Tower.CSharp.Editor", "UnityVS.Infinite-Tower.CSharp.Editor.csproj", "{1881B693-41F5-CE9A-4F73-F27012024C62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9705516D-44BA-7121-7FD8-E2F7B0ECDF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9705516D-44BA-7121-7FD8-E2F7B0ECDF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9705516D-44BA-7121-7FD8-E2F7B0ECDF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9705516D-44BA-7121-7FD8-E2F7B0ECDF81}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7532B980-47D5-0DA7-AD5E-C39F4E4884FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7532B980-47D5-0DA7-AD5E-C39F4E4884FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7532B980-47D5-0DA7-AD5E-C39F4E4884FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7532B980-47D5-0DA7-AD5E-C39F4E4884FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1881B693-41F5-CE9A-4F73-F27012024C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881B693-41F5-CE9A-4F73-F27012024C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881B693-41F5-CE9A-4F73-F27012024C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881B693-41F5-CE9A-4F73-F27012024C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
