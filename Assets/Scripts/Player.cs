@@ -7,15 +7,16 @@ using UnityStandardAssets.CrossPlatformInput;
     bool facingRight = true; // 캐릭터의 방향 전환을 위한 불값
     Vector3 movement; // 상하좌우 움직임을 위한 벡터
 
+    public float P_dmg;
     public float P_mspd; // 플레이어 스피드
 
     Animator anim;
-    Animation anime;
+ 
 	// Use this for initialization
     void Awake()
     {
         anim = GetComponent<Animator>();
-        anime = GetComponent<Animation>();
+       
     }
 	void Start () {
         
@@ -44,6 +45,7 @@ using UnityStandardAssets.CrossPlatformInput;
         float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
         movement.Set(h, v, 0);
         if (h > 0 && !facingRight || h < 0 && facingRight) Flip();
+
         if (h > 0 || h < 0 || v < 0 || v > 0) {
             anim.SetBool("IsWalk", true);
         }

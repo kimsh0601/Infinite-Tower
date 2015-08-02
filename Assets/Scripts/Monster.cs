@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Monster : MonoBehaviour {
     public Transform target;
@@ -12,12 +13,20 @@ public class Monster : MonoBehaviour {
     public float M_spd;
     public float MTag;
 
+    public float M_hp;
+    public Slider M_value;
+
+    public Player Player;
+
 
 	// Use this for initialization
 	void Start () {
-
+        M_value.maxValue = M_hp;
+        M_value.value = M_hp;
         RandomMove();
         Auto_vel = 0.01f;
+
+        
 
 
     }
@@ -46,6 +55,8 @@ public class Monster : MonoBehaviour {
                                                    transform.position.y + (AutoMove.y * Auto_vel),
                                                    transform.position.z);
         }
+        
+        
 
 
     }
@@ -64,6 +75,13 @@ public class Monster : MonoBehaviour {
                                                    transform.position.z);
         
       
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.transform.tag == "WPTag") {
+            M_hp -= Player.P_dmg;
+        M_value.value = M_hp;
+    }
     }
    
 
