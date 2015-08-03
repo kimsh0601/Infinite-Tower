@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 Base path: C:/Program Files/Unity/Editor/Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-5868
 =======
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-4856
@@ -9,4 +10,7 @@ Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-4856
 Base path: C:/Program Files/Unity 5/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-8000
 >>>>>>> origin/master
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3536
+>>>>>>> e3dd
 Cmd: getPlatforms

@@ -31,6 +31,7 @@ Global
 	EndGlobalSection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 																GlobalSection(MonoDevelopProperties) = preSolution
 =======
@@ -46,6 +47,9 @@ Global
 =======
 >>>>>>> origin/master
 >>>>>>> origin/master
+=======
+															GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> e3dd
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
