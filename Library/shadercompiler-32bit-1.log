@@ -1,11 +1,12 @@
+<<<<<<< HEAD
 Base path: C:/Program Files/Unity/Editor/Data
 <<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-5868
 =======
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-4856
 >>>>>>> parent of 26ad7e8... Menu_2
+=======
+Base path: C:/Program Files/Unity 5/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-8000
+>>>>>>> origin/master
 Cmd: getPlatforms
-Unhandled exception: Readfile from pipe failed. GLE=파이프가 끝났습니다.
-
-
-Quitting shader compiler process

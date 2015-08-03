@@ -30,13 +30,22 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+																GlobalSection(MonoDevelopProperties) = preSolution
+=======
+>>>>>>> origin/master
 																	GlobalSection(MonoDevelopProperties) = preSolution
 =======
 										GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
 							GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> parent of 26ad7e8... Menu_2
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
