@@ -9,6 +9,9 @@ TagManager:
   - PlayerTag
   - WPTag
   - Forge
+  - PShop
+  - AShop
+  - Tower
   layers:
   - Default
   - TransparentFX
