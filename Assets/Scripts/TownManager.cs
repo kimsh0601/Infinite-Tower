@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PShop : MonoBehaviour {
+public class TownManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +15,7 @@ public class PShop : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col)
 	{
 		if (col.transform.tag == "PlayerTag") {
-			Application.LoadLevel ("PotionShop");
+			Application.LoadLevel("GamePlay");
 		}
 	}
 }
