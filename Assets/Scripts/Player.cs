@@ -7,8 +7,10 @@ using UnityStandardAssets.CrossPlatformInput;
     bool facingRight = true; // 캐릭터의 방향 전환을 위한 불값
     Vector3 movement; // 상하좌우 움직임을 위한 벡터
 
-    public float P_dmg;
+    public float P_dmg; // 플레이어 데미지
     public float P_mspd; // 플레이어 스피드
+
+    
 
     Animator anim;
  
