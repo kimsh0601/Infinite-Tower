@@ -14,15 +14,17 @@ public class Monster : MonoBehaviour {
     public float MTag;
 
     public float M_hp;
-    public Slider M_value;
+    public GameObject M_value;
 
     public Player Player;
 
 
+   
 	// Use this for initialization
 	void Start () {
-        M_value.maxValue = M_hp;
-        M_value.value = M_hp;
+        
+        M_value.GetComponent<Slider>().maxValue = M_hp;
+        M_value.GetComponent<Slider>().value = M_hp;
         RandomMove();
         Auto_vel = 0.01f;
 
@@ -31,8 +33,8 @@ public class Monster : MonoBehaviour {
 
     }
     void RandomMove() {
-        AutoMove.x = Random.Range(-1.0f, 1.0f);
-        AutoMove.y = Random.Range(-1.0f, 1.0f);
+        AutoMove.x = Random.Range(-10.0f, 10.0f);
+        AutoMove.y = Random.Range(-10.0f, 10.0f);
         Invoke("RandomMove", 1.5f);
     }
 
@@ -51,8 +53,8 @@ public class Monster : MonoBehaviour {
         else
         {
             velocity = 0.0f;
-            this.transform.position = new Vector3(transform.position.x + (AutoMove.x * Auto_vel),
-                                                   transform.position.y + (AutoMove.y * Auto_vel),
+            this.transform.position = new Vector3(transform.position.x + (AutoMove.x * Auto_vel * Time.deltaTime),
+                                                   transform.position.y + (AutoMove.y * Auto_vel * Time.deltaTime),
                                                    transform.position.z);
         }
         
@@ -80,8 +82,18 @@ public class Monster : MonoBehaviour {
     {
         if (col.transform.tag == "WPTag") {
             M_hp -= Player.P_dmg;
-        M_value.value = M_hp;
-    }
+        M_value.GetComponent<Slider>().value = M_hp;
+            if (M_hp <= 0) {
+                Destroy(M_value);
+                Destroy(gameObject);
+
+                
+                
+
+                    
+            }
+
+      }
     }
    
 
