@@ -29,27 +29,22 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-																		GlobalSection(MonoDevelopProperties) = preSolution
+																					GlobalSection(MonoDevelopProperties) = preSolution
+=======
+>>>>>>> origin/master
+																	GlobalSection(MonoDevelopProperties) = preSolution
 =======
 										GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
-								GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> parent of 26ad7e8... Menu_2
 =======
-																	GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																	GlobalSection(MonoDevelopProperties) = preSolution
-=======
-										GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> origin/master
 >>>>>>> origin/master
 >>>>>>> origin/master
 =======
-																GlobalSection(MonoDevelopProperties) = preSolution
+															GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> e3dd
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
