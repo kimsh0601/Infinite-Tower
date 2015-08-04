@@ -17,6 +17,7 @@ using UnityStandardAssets.CrossPlatformInput;
 	// Use this for initialization
     void Awake()
     {
+        
         anim = GetComponent<Animator>();
        
     }
@@ -52,20 +53,13 @@ using UnityStandardAssets.CrossPlatformInput;
             anim.SetBool("IsWalk", true);
         }
         else {
-            anim.SetBool("IsWalk", false);
-           
-           
+           anim.SetBool("IsWalk", false);
         }
         
         transform.Translate(movement * P_mspd * Time.deltaTime);
 
     }
-    public void BaseAtk() {
-         
-         anim.Play("PlayerAtk");
-         
-        
-    }
+  
 
     void OnTriggerEnter2D(Collider2D col)
     {    
