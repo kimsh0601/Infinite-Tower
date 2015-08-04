@@ -64,7 +64,7 @@ using UnityStandardAssets.CrossPlatformInput;
     void OnTriggerEnter2D(Collider2D col)
     {    
 		if (col.transform.tag == "TowerTag") {
-			Application.LoadLevel("GamePlay");
+			Application.LoadLevel("FloorSelect");
 		}
 		if (col.transform.tag == "ForgeTag") {
 			Application.LoadLevel("Forge");
