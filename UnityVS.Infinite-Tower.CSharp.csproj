@@ -83,15 +83,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BtnManager.cs" />
     <Compile Include="Assets\Scripts\M_HPBar.cs" />
+    <Compile Include="Assets\Scripts\ManagerScripts\BtnManager.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\TownManager.cs" />
-=======
->>>>>>> origin/Rollback
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

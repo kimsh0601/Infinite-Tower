@@ -99,7 +99,7 @@ GameObject:
   - 61: {fileID: 149787701}
   m_Layer: 0
   m_Name: Tower
-  m_TagString: Untagged
+  m_TagString: TowerTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149787698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0700000003, y: 3.67000008, z: 0}
+  m_LocalPosition: {x: 1.23000002, y: 3.67000008, z: 0}
   m_LocalScale: {x: 1.1675812, y: 1.00078464, z: .513222933}
   m_Children: []
   m_Father: {fileID: 0}
@@ -803,6 +803,17 @@ BoxCollider2D:
   m_Offset: {x: -.0367596969, y: -.262051702}
   serializedVersion: 2
   m_Size: {x: .439455956, y: .795896649}
+--- !u!114 &820764215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 820764208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9c62a906350554f8714f3ed44598a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &886809223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,8 +1542,8 @@ GameObject:
   - 212: {fileID: 1829197896}
   - 61: {fileID: 1829197898}
   m_Layer: 0
-  m_Name: ForgeHole
-  m_TagString: Untagged
+  m_Name: Forge
+  m_TagString: ForgeTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1583,7 +1594,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1829197895}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
