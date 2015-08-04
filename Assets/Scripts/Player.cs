@@ -56,7 +56,13 @@ using UnityStandardAssets.CrossPlatformInput;
            
            
         }
+        Debug.Log(h);
+        Debug.Log(v);
         transform.Translate(movement * P_mspd * Time.deltaTime);
+
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {    
 
     }
 }

@@ -1088,7 +1088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReinFoce: {fileID: 0}
   Panel: {fileID: 1486567773}
+  Forgemax: {fileID: 0}
   score: {fileID: 0}
+  count: {fileID: 0}
 --- !u!4 &1215138991
 Transform:
   m_ObjectHideFlags: 0
