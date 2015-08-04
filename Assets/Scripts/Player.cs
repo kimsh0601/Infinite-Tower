@@ -56,11 +56,17 @@ using UnityStandardAssets.CrossPlatformInput;
            
            
         }
-        Debug.Log(h);
-        Debug.Log(v);
+        
         transform.Translate(movement * P_mspd * Time.deltaTime);
 
     }
+    public void BaseAtk() {
+         
+         anim.Play("PlayerAtk");
+         
+        
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {    
 		if (col.transform.tag == "TowerTag") {

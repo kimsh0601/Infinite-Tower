@@ -41,7 +41,7 @@ public class BtnManager : MonoBehaviour {
     public void MainMenu()
     {
         Time.timeScale = 1;
-        Application.LoadLevel("MainMenu");
+        Application.LoadLevel("Town");
     }
     public void PauseGame()
     {
