@@ -1088,7 +1088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReinFoce: {fileID: 0}
   Panel: {fileID: 1486567773}
+  Forgemax: {fileID: 0}
   score: {fileID: 0}
+  count: {fileID: 0}
 --- !u!4 &1215138991
 Transform:
   m_ObjectHideFlags: 0
@@ -1303,7 +1305,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 405974, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 164664, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
@@ -1601,7 +1607,7 @@ Transform:
   m_GameObject: {fileID: 1807922999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.32600021, y: -.186000004, z: 0}
-  m_LocalScale: {x: .711538494, y: .709476411, z: 1}
+  m_LocalScale: {x: .400000006, y: .400000006, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1662,7 +1668,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e18a140050afeb041b80f8b57b96cce6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0fa126041163d5347b0ac0d782528ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1807923004
 MonoBehaviour:

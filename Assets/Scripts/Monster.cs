@@ -26,7 +26,7 @@ public class Monster : MonoBehaviour {
         M_value.GetComponent<Slider>().maxValue = M_hp;
         M_value.GetComponent<Slider>().value = M_hp;
         RandomMove();
-        Auto_vel = 0.01f;
+        Auto_vel = 0.1f;
 
         
 
