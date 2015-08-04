@@ -8,6 +8,8 @@ TagManager:
   - UTAG
   - PlayerTag
   - WPTag
+  - TowerTag
+  - ForgeTag
   layers:
   - Default
   - TransparentFX
