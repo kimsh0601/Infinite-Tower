@@ -298,6 +298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ReinFoce: {fileID: 0}
+  Panel: {fileID: 0}
+  Forgemax: {fileID: 0}
+  score: {fileID: 0}
+  count: {fileID: 0}
 --- !u!4 &638970880
 Transform:
   m_ObjectHideFlags: 0
