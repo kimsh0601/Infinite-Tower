@@ -1,14 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
     public class Player : MonoBehaviour {
 
     bool facingRight = true; // 캐릭터의 방향 전환을 위한 불값
     Vector3 movement; // 상하좌우 움직임을 위한 벡터
 
+    public float P_hp; // 플레이어의 체력
     public float P_dmg; // 플레이어 데미지
     public float P_mspd; // 플레이어 스피드
+    public int P_gold;
+
+    public Text Fanta;
+
+    
+    public GameObject P_value;
+
 
     
 
@@ -17,7 +26,15 @@ using UnityStandardAssets.CrossPlatformInput;
 	// Use this for initialization
     void Awake()
     {
+        //PlayerPrefs.Save();
+        
+
+        P_hp = 200.0f;
         anim = GetComponent<Animator>();
+        
+
+//        P_value.GetComponent<Slider>().maxValue = P_hp;
+  //      P_value.GetComponent<Slider>().value = P_hp;
        
     }
 	void Start () {
@@ -38,6 +55,7 @@ using UnityStandardAssets.CrossPlatformInput;
 	}
     void FixedUpdate()
     {
+        //PlayerPrefs.SetInt("P_Gold", P_gold);
         Move();
 
     }
@@ -52,20 +70,13 @@ using UnityStandardAssets.CrossPlatformInput;
             anim.SetBool("IsWalk", true);
         }
         else {
-            anim.SetBool("IsWalk", false);
-           
-           
+           anim.SetBool("IsWalk", false);
         }
         
         transform.Translate(movement * P_mspd * Time.deltaTime);
 
     }
-    public void BaseAtk() {
-         
-         anim.Play("PlayerAtk");
-         
-        
-    }
+  
 
     void OnTriggerEnter2D(Collider2D col)
     {    
@@ -75,5 +86,6 @@ using UnityStandardAssets.CrossPlatformInput;
 		if (col.transform.tag == "ForgeTag") {
 			Application.LoadLevel("Forge");
 		}
+        
     }
 }
