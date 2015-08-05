@@ -2,22 +2,17 @@
 using System.Collections;
 
 public class DGManager : MonoBehaviour {
-
-
-    public int Counting;
-    public int MAX;
+	public GameObject Mob;
+	
 	// Use this for initialization
 	void Start () {
-        Counting = 0;
-	
+		Mob = GameObject.FindWithTag("MOB");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-      if(Counting == MAX)
-        {
-            Application.LoadLevel("FloorSelect");
-        }
+       if (Mob == null) {
+			Application.LoadLevel("FloorSelect");
+		}
     }
-   
 }
