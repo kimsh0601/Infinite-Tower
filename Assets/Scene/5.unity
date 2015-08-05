@@ -119,7 +119,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 663.599976, y: -170}
+  m_AnchoredPosition: {x: 221, y: -184}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &65290188
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1406,7 +1406,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 398.5, y: 239}
+  m_AnchoredPosition: {x: 381, y: 212}
   m_SizeDelta: {x: 797, y: 478}
   m_Pivot: {x: .5, y: .5}
 --- !u!1001 &1320340682
@@ -1555,6 +1555,14 @@ Prefab:
     - target: {fileID: 6079200, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].y
       value: -.370042861
+      objectReference: {fileID: 0}
+    - target: {fileID: 405974, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.70000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 405974, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.70000005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e00d599324a19f478e3da52b51c7473, type: 2}
@@ -1707,7 +1715,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 220, y: 70}
+  m_AnchoredPosition: {x: -23, y: -56}
   m_SizeDelta: {x: 818, y: 325}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1486567775
@@ -2149,7 +2157,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 745, y: 389}
+  m_AnchoredPosition: {x: 294, y: 128}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2127910980
