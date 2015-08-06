@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Monster : MonoBehaviour
 {
     public Transform target;
-    
+    private DGManager DG;    
     public Vector3 direction;
 
     public Vector3 AutoMove;
@@ -32,6 +32,7 @@ public class Monster : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        DG = GameObject.Find("Main Camera").GetComponent<DGManager>();
         count = GetComponent<DGManager>();
         M_gold = Random.Range(min, max);
         M_value.GetComponent<Slider>().maxValue = M_hp;
@@ -108,7 +109,7 @@ public class Monster : MonoBehaviour
             if (M_hp <= 0)
             {
                 Player.P_gold += M_gold;
-               
+                DG.mList.Remove(gameObject);
                 Debug.Log(M_gold);
                 Destroy(M_value);
                 

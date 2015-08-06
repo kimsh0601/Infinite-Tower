@@ -31,11 +31,11 @@ using UnityEngine.UI;
 
         P_hp = 200.0f;
         anim = GetComponent<Animator>();
-        
 
-//        P_value.GetComponent<Slider>().maxValue = P_hp;
-  //      P_value.GetComponent<Slider>().value = P_hp;
-       
+        if (P_value != null){
+            P_value.GetComponent<Slider>().maxValue = P_hp;
+            P_value.GetComponent<Slider>().value = P_hp;
+        }
     }
 	void Start () {
         
