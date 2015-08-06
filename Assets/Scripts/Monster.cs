@@ -125,8 +125,12 @@ public class Monster : MonoBehaviour
         {
             Player.P_hp -= M_dmg;
             Player.P_value.GetComponent<Slider>().value = Player.P_hp;
-           
-            
+            if (gameObject.transform.position.x < target.position.x)
+            {
+                target.Translate(0.5f, 0f, 0f);
+            }
+            else { target.Translate(-0.5f, 0f, 0f); }
+
         }
 
 

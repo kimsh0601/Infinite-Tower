@@ -2,16 +2,18 @@
 using System.Collections;
 
 public class DGManager : MonoBehaviour {
-	public GameObject Mob;
+    public ArrayList List;
 	
 	// Use this for initialization
 	void Start () {
-		Mob = GameObject.FindWithTag("MOB");
+        List = GetComponent <ArrayList>();
+
+        List.Add(GameObject.FindWithTag("MOB"));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-       if (Mob == null) {
+       if (List == null) {
 			Application.LoadLevel("FloorSelect");
 		}
     }

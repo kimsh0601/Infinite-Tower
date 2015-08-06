@@ -29,7 +29,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																																								GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																																			GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/Rollback
 =======
 																																		GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/Rollback
