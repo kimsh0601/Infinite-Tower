@@ -2490,7 +2490,7 @@ Units is normalized time.</para>
         <para>Save asset importer settings if asset importer is dirty.</para>
       </summary>
     </member>
-    <member name="T:UnityEditor.AssetModificationProcessor">
+    <member name="T:AssetModificationProcessor">
       <summary>
         <para>AssetModificationProcessor lets you hook into saving of serialized assets and scenes which are edited inside Unity.</para>
       </summary>
