@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7044
-=======
 Base path: C:/Program Files/Unity 5/Editor/Data
-<<<<<<< HEAD
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9456
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-4068
->>>>>>> origin/Rollback
->>>>>>> origin/Rollback
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-6784
 Cmd: getPlatforms
