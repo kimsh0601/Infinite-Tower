@@ -22,6 +22,12 @@ public class BtnManager : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void CharSel()
+    {
+        PlayerPrefs.SetInt("char", 1);
+        PlayerPrefs.Save();
+        Application.LoadLevel("Town");
+    }
 	public void GamePlay(){
 		Application.LoadLevel("GamePlay");
 	}

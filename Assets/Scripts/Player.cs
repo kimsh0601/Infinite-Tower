@@ -11,6 +11,10 @@ using UnityEngine.UI;
     public float P_hp; // 플레이어의 체력
     public float P_dmg; // 플레이어 데미지
     public float P_mspd; // 플레이어 스피드
+    public float P_str;
+    public float P_dex;
+    public float P_int;
+    public float P_wil;
     public int P_gold;
 
     public Text Fanta;

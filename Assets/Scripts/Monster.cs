@@ -89,7 +89,7 @@ public class Monster : MonoBehaviour
 
         // 해당 방향으로 무우-빙
         this.transform.position = new Vector3(transform.position.x + (direction.x * velocity),
-                                                   transform.position.y + (direction.y * velocity),
+                                                   transform.position.y  + (direction.y * velocity),
                                                    transform.position.z);
 
 
@@ -103,9 +103,9 @@ public class Monster : MonoBehaviour
             M_value.GetComponent<Slider>().value = M_hp;
             if (gameObject.transform.position.x > target.position.x)
             {
-                transform.Translate(0.5f,0f,0f);
+                transform.Translate(0.2f,0f,0f);
             }
-            else { transform.Translate(-0.5f, 0f, 0f); }
+            else { transform.Translate(-0.2f, 0f, 0f); }
             if (M_hp <= 0)
             {
                 Player.P_gold += M_gold;
@@ -128,9 +128,9 @@ public class Monster : MonoBehaviour
             Player.P_value.GetComponent<Slider>().value = Player.P_hp;
             if (gameObject.transform.position.x < target.position.x)
             {
-                target.Translate(0.5f, 0f, 0f);
+                target.Translate(0.3f, 0f, 0f);
             }
-            else { target.Translate(-0.5f, 0f, 0f); }
+            else { target.Translate(-0.3f, 0f, 0f); }
 
         }
 

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class M_HPBar : MonoBehaviour {
 
-    public Transform target;
+    public Transform target; 
     public Vector2 Mytar;
 
 	// Use this for initialization
