@@ -10,6 +10,7 @@ TagManager:
   - WPTag
   - TowerTag
   - ForgeTag
+  - ArmsShopTag
   layers:
   - Default
   - TransparentFX
