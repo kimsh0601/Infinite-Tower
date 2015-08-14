@@ -31,10 +31,16 @@ Global
 	EndGlobalSection
 																																																					GlobalSection(MonoDevelopProperties) = preSolution
 =======
+																																										GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
+=======
 <<<<<<< HEAD
 																																									GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																										GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/Rollback
 >>>>>>> origin/Rollback
 =======
 <<<<<<< HEAD

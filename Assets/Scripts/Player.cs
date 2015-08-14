@@ -90,6 +90,9 @@ using UnityEngine.UI;
 		if (col.transform.tag == "ForgeTag") {
 			Application.LoadLevel("Forge");
 		}
+		if (col.transform.tag == "ArmsShopTag") {
+			Application.LoadLevel("ArmsShop");
+		}
         
     }
 }

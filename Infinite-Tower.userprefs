@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ManagerScripts\CSManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\ManagerScripts\CSManager.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\ManagerScripts\CSManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
