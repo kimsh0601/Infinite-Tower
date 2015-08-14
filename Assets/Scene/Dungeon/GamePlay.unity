@@ -582,6 +582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mList: []
   Monster: []
+  Player: {fileID: 1135179604}
+  _dead: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &603095495
 GameObject:
   m_ObjectHideFlags: 0

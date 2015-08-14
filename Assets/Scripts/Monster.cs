@@ -4,25 +4,26 @@ using UnityEngine.UI;
 
 public class Monster : MonoBehaviour
 {
+    private DGManager DG;
     public Transform target;
-    private DGManager DG;    
+      
     public Vector3 direction;
-
     public Vector3 AutoMove;
-    public float Auto_vel;
 
+    public float Auto_vel;
     public float velocity;
     public float M_spd;
     public float MTag;
+
     public int M_gold;
 
     public float M_dmg;
-
     public float M_hp;
-    public GameObject M_value;
 
+    public GameObject M_value;
+    
     public Player Player;
-    private DGManager count;
+    
 
     public int min;
     public int max;
@@ -33,7 +34,7 @@ public class Monster : MonoBehaviour
     void Start()
     {
         DG = GameObject.Find("Main Camera").GetComponent<DGManager>();
-        count = GetComponent<DGManager>();
+        
         M_gold = Random.Range(min, max);
         M_value.GetComponent<Slider>().maxValue = M_hp;
         M_value.GetComponent<Slider>().value = M_hp;
@@ -131,6 +132,8 @@ public class Monster : MonoBehaviour
                 target.Translate(0.3f, 0f, 0f);
             }
             else { target.Translate(-0.3f, 0f, 0f); }
+
+            
 
         }
 
