@@ -12,22 +12,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Town.unity
   - enabled: 1
-    path: Assets/Scene/Forge.unity
-  - enabled: 1
-    path: Assets/Scene/Dungeon/GamePlay.unity
+    path: Assets/Scene/ArmsShop.unity
   - enabled: 1
     path: Assets/Scene/FloorSelect.unity
   - enabled: 1
-    path: Assets/Scene/Dungeon/2.unity
+    path: Assets/Scene/Forge.unity
+  - enabled: 1
+    path: Assets/Scene/DBTest.unity
+  - enabled: 0
+    path: Assets/Scene/Town.unity
+  - enabled: 0
+    path: Assets/Scene/Town.unity
   - enabled: 1
     path: Assets/Scene/Dungeon/3.unity
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scene/5.unity
+    path: Assets/Scene/Dungeon/2.unity
   - enabled: 1
-    path: Assets/Scene/ArmsShop.unity
-  - enabled: 1
-    path: Assets/Scene/CharacterSelect.unity
-=======
     path: Assets/Scene/Dungeon/5.unity
->>>>>>> origin/Rollback
+  - enabled: 1
+    path: Assets/Scene/Dungeon/GamePlay.unity
